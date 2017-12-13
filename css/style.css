@@ -1,0 +1,26 @@
+body{
+	font-size: 18px;
+	font-family: 'Exo 2', sans-serif;
+	text-align: center;
+	background-color: #3C493F;
+}
+{
+	width: 10em;
+	height: 10em;
+}
+.reseauko{
+	text-align: right;
+	color: #D80000;
+}
+h1{
+	font-size: 4em;
+	color: #fff;
+
+}
+.portusb{
+	background-color: #D80000;
+	padding: 20px;
+}
+.arrow{
+	margin: 2em;
+}
