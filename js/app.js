@@ -1,3 +1,5 @@
+// C'EST BIEN FAIT LE JAVASCRIPT !!!
+
 function main(){
 
     document.getElementById("94768-200.png").innerHTML;
@@ -8,10 +10,43 @@ function main(){
 
 }
 
+// USB SLIDE
+
 $( document.body ).click(function() {
   if ( $( "div:first" ).is( ":hidden" ) ) {
-    $( ".usbconnex" ).show( "slow" );
+    $( '.usbconnex' ).show( "slow" );
   } else {
-    $( ".usbconnex" ).slideUp();
+    $( '.usbconnex' ).slideUp();
   }
 });
+
+// MARIO APPEARANCE + BRICK ACTION
+
+function byId(e){return document.getElementById(e);}
+
+window.addEventListener('load', mInit, false);
+
+function mInit()
+{
+    var tgt = byId('.brick');
+    tgt.secondSource = 'smb3_bloc-question.gif';
+}
+
+function byId(e){return document.getElementById(e);}
+
+function action()
+{
+    var tgt = byId('smb3_bloc-question.gif');
+    var tmp = tgt.src;
+    tgt.src = tgt.secondSource;
+    tgt.secondSource = tmp;
+};
+
+function action2()
+{
+    var tgt = byId('.usbconnex');
+    var tmp = tgt.src;
+    tgt.src = tgt.getAttribute('.brick');
+    tgt.setAttribute('smb3_bloc-question.gif', tmp);
+
+};
