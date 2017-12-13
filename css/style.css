@@ -1,15 +1,22 @@
-body {
-		background-color: grey;
+.Ribbon{
+
+	transform: translateY(-250px);
+
+}
+
+.rbbl{
+
+	background-color: red; 
+	height: 100px;
+	border: 1px solid red;
+	margin-right: 650px;
+
 	}
 
-img{
-	  width: 275px;
-	  height: 250px;
-	}
-
-.port{
-		width: 375px;
-		height: 375px;
-		margin-top: 5%;
-		margin-left: 33%;
-	}
+.rbbr{
+	background-color: red;
+	height: 100px;
+	border: 1px solid red;
+	margin-left: 650px;
+	transform: translateY(-100px);
+}
