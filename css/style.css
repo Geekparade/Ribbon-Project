@@ -1,5 +1,5 @@
 body {
-		background-color: grey;
+		background-color: black;
 	}
 
 img{
@@ -13,3 +13,24 @@ img{
 		margin-top: 5%;
 		margin-left: 33%;
 	}
+
+.ribbonL{
+		border: 1px solid red;
+		height: 100px;
+		margin-right: 50%;
+		background-color: red;
+		float: left;
+
+.ribbonR{
+		border: 1px solid red;
+		height: 100px;
+		margin-left: 50%;
+		background-color: red;
+		float: right;
+	}
+
+/*.ribbonR .ribbonL{
+		display: table-cell;
+		vertical-align: top;
+
+	}*/
